@@ -23,5 +23,10 @@
 	"imports": {
 		"#lib": "./src/lib/index.js",
 		"#lib/*": "./src/lib/*"
+	},
+	"dependencies": {
+		"@fontsource/anton-sc": "^5.3.0",
+		"@tailwindcss/vite": "^4.3.3",
+		"tailwindcss": "^4.3.3"
 	}
 }

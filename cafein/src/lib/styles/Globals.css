@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body {
+	background-color: var(--background);
+}
+
+@theme {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-anton: "Anton SC", sans-serif;
+	--font-geist: "Geist Sans", sans-serif;
+	--text-20xl: clamp(4.5rem, 9vw + 1rem, 55rem);
+}
+
+:root {
+	--background: #0e0e0f;
+	--foreground: #ededed;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--background: #ffffff;
+		--foreground: #171717;
+	}
+}
+
+.anton {
+	font-family: var(--font-anton);
+}
+
+.no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
