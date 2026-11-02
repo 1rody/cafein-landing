@@ -1,0 +1,29 @@
+@keyframes showdownanim {
+    0%, 20% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    20%, 40% {
+        opacity: 0.5;      
+        transform: scale(1);
+    }
+    40%, 50% {
+        opacity: 1;      
+        transform: scale(1.2);
+    }
+    50%, 100% {
+        opacity: 1;  
+        transform: scale(1);
+    }
+}
+
+
+.show-down-01 {
+    animation: showdownanim .5s ease-in;
+}
+.show-down-02 {
+    animation: showdownanim .8s ease-in;
+}
+.show-down-03 {
+    animation: showdownanim 1s ease-in;
+}
