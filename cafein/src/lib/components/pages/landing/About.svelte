@@ -9,7 +9,7 @@
     ]
 </script>
 
-<section id="about" class="bg-background flex-wrap p-10 h-screen items-center flex justify-center w-full">
+<section id="about" class="bg-background flex-wrap p-10 lg:relative  lg:sticky top-[20px] h-screen items-center flex justify-center w-full">
     <div class="flex gap-4 lg:w-1/2 ">
         {#each coffeImages as  coffeImage, index (coffeImage.description)}
             <div class="flex flex-col overflow-hidden lg:h-full lg:flex-row items-center justify-center gap-5">
