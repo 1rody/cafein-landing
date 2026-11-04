@@ -4,6 +4,7 @@
     import Hero from "#lib/components/pages/landing/Hero.svelte";
     import About from "#lib/components/pages/landing/About.svelte";
     import Location from "#lib/components/pages/landing/Location.svelte";
+    import Menu from "#lib/components/pages/landing/Menu.svelte";
 
     import ClientCounter from "#lib/components/pages/landing/misc/ClientCounter.svelte";
 
@@ -17,4 +18,5 @@
     <ClientCounter/>
     <About/>
     <Location/>
+    <Menu/>
 </main>
