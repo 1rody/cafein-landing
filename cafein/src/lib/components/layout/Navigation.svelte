@@ -1,5 +1,5 @@
 
-<header id="navigation" class="flex z-4 z-50 fixed text-4xl  w-full items-center justify-center">
+<header id="navigation" class="flex z-50 fixed text-31xl  mix-blend-difference w-full items-center justify-center">
     <nav class="flex anton items-center justify-between p-5 w-full  text-white ">
         <a href="">CAFEIN</a>
         <button>MENU</button>
