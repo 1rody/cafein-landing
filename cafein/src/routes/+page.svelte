@@ -1,5 +1,6 @@
 <script lang="ts">
     import Navigation from "#lib/components/layout/Navigation.svelte";
+    import Footer from "#lib/components/layout/Footer.svelte";
 
     import Hero from "#lib/components/pages/landing/Hero.svelte";
     import About from "#lib/components/pages/landing/About.svelte";
@@ -20,3 +21,4 @@
     <Location/>
     <Menu/>
 </main>
+<Footer/>
