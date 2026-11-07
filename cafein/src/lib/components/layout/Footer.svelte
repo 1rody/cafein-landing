@@ -25,7 +25,7 @@
 
 <footer class="flex lg:flex-nowrap flex-wrap items-center w-full justify-center p-20">
     <section class="lg:w-1/2">
-
+        <img src="" alt="">
     </section>
     <section class="lg:w-1/2 flex flex-col items-center justify-start">
         <ol> 
