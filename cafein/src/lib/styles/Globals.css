@@ -9,6 +9,7 @@ body {
 @theme {
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
+	--color-secondary: #C29E74;
 	--font-anton: "Anton SC", sans-serif;
 	--font-geist: "Geist Sans", sans-serif;
 	--text-20xl: clamp(4.5rem, 7vw + 1rem, 55rem);
