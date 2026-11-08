@@ -5,7 +5,7 @@
 <img src={Background} class="z-2 absolute object-cover w-full h-screen" alt="Background coffe">
 <section id="hero" class="flex z-4 relative h-screen flex-col w-full items-center justify-center">
     <div class="flex items-center justify-center flex-col ">
-        <h1 class="lg:text-20xl text-10xl font-black anton uppercase lg:gap-10 gap-3 flex text-white">
+        <h1 class="lg:text-20xl md:text-10xl text-5xl text-shadow-2xs font-black anton uppercase lg:gap-10 gap-3 flex text-white">
             <span class="show-down-01">THE</span> 
             <span  class="show-down-02">BEST</span> 
             <span  class="show-down-03">COFFE</span>

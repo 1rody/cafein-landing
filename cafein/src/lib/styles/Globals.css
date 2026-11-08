@@ -9,17 +9,18 @@ body {
 @theme {
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
-	--color-secondary: #C29E74;
+	--color-secondary: var(--bg-secondary);
 	--font-anton: "Anton SC", sans-serif;
 	--font-geist: "Geist Sans", sans-serif;
-	--text-20xl: clamp(4.5rem, 7vw + 1rem, 55rem);
-	--text-10xl: clamp(4.5rem, 4vw + 1rem, 55rem);
+	--text-20xl: clamp(4.5rem, 6vw + 0.2rem, 55rem);
+	--text-10xl: clamp(4.5rem, 3vw + 1rem, 55rem);
 }
 
 :root {
 	--background: #211813;
 	--foreground: #ededed;
-}
+	--bg-secondary: #d1a16c;
+}	
 
 html {
 	scroll-behavior: smooth;
