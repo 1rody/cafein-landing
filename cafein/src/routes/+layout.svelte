@@ -5,6 +5,19 @@
 	import '@fontsource/anton-sc/400.css';
 
 	let { children }: LayoutProps = $props();
+
+	import { onMount } from 'svelte';
+	import Lenis from 'lenis';
+	import 'lenis/dist/lenis.css';
+
+  onMount(() => {
+    const lenis = new Lenis({
+      autoRaf: true,     
+      duration: 1.2,     
+      smoothWheel: true,
+    });
+    return () => lenis.destroy();
+  });
 </script>
 
 <svelte:head>

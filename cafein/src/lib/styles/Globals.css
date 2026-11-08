@@ -21,7 +21,9 @@ body {
 	--foreground: #ededed;
 }
 
-
+html {
+	scroll-behavior: smooth;
+}
 
 .anton {
 	font-family: var(--font-anton);
