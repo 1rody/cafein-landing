@@ -26,7 +26,7 @@
 
 <footer class="flex bg-secondary shadow-2xl flex-col items-center w-full justify-center">
     <div class="bg-background shadow-2xl h-fit mt-4 w-full">
-        <img src={background} alt="Cafein dual tone background" class="w-full object-cover h-10"/>
+        <img src={background} alt="Cafein dual tone background" class="w-full opacity-30 object-cover h-10"/>
     </div>
     <div class="flex lg:flex-nowrap mt-20 lg:mt-0 flex-wrap overflow-hidden items-center w-full justify-center">
         <section class="hidden  lg:flex">
@@ -50,7 +50,7 @@
     </div>
         <p class="text-white hidden lg:flex absolute pl-45 pt-45 font-black text-2xl">© 2026 Cafein LTD. All rights reserved.</p>
     <div class="bg-background shadow-2xl h-fit mt-4 w-full">
-        <img src={background} alt="Cafein dual tone background" class="w-full object-cover h-10"/>
+        <img src={background} alt="Cafein dual tone background" class="w-full opacity-30 object-cover h-10"/>
     </div>
 
 </footer>

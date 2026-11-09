@@ -17,7 +17,7 @@ body {
 }
 
 :root {
-	--background: #211813;
+	--background: #0d0a08;
 	--foreground: #ededed;
 	--bg-secondary: #d1a16c;
 }	
@@ -29,7 +29,9 @@ html {
 .anton {
 	font-family: var(--font-anton);
 }
-
+.h-infinite {
+	height: 120vh;
+}
 .no-select {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;

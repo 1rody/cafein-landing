@@ -19,7 +19,7 @@
             <li><a class="hover:p-10 duration-200" href="">Produtos</a></li>
             <li><a class="hover:p-10 duration-200"  href="">Sobre</a></li>
             <li><a class="hover:p-10 duration-200" href="">Localizacao</a></li>
-
+            <li><a class="hover:p-10 duration-200"  href="">Login</a></li>
         </ol>
     </nav>
 </section>
