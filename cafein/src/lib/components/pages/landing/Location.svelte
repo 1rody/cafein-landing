@@ -10,7 +10,7 @@
     }
 </style>
 
-<section class="bg-white h-screen lg:relative overflow-hidden p-5 lg:sticky top-[2px] flex flex-col w-full justify-center items-center gap-10">
+<section id="location" class="bg-white h-screen lg:relative overflow-hidden p-5 lg:sticky top-[2px] flex flex-col w-full justify-center items-center gap-10">
         <div class="flex w-full justify-between pp5">
             <div class="bg-black lg:max-w-2/3 h-104">
                 <img src={coffeMock01} class="w-200 h-180 object-cover" alt="Café">

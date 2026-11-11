@@ -10,6 +10,10 @@ body {
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
 	--color-secondary: var(--bg-secondary);
+
+	--color-sys: var(--sys);
+	--color-system: var(--system);
+
 	--font-anton: "Anton SC", sans-serif;
 	--font-geist: "Geist Sans", sans-serif;
 	--text-20xl: clamp(4.5rem, 6vw + 0.2rem, 55rem);
@@ -20,6 +24,8 @@ body {
 	--background: #0d0a08;
 	--foreground: #ededed;
 	--bg-secondary: #d1a16c;
+	--system: #121212;
+	--sys: #000000;
 }	
 
 html {
