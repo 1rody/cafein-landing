@@ -46,7 +46,7 @@
 
 <section id="about" class="bg-background lg:flex-nowrap flex-wrap p-10 lg:relative  max-h-screen lg:sticky top-[20px] h-screen flex  w-full  justify-between gap-10">
 
-    <div class=" gap-4 hidden lg:flex overflow-hidden -mt-100  px-10 ">
+    <div class=" gap-4 hidden lg:flex overflow-hidden z-5 -mt-100  px-10 ">
         {#each columns as column, c}
             <div class="overflow-hidden">
                 <div class="scroll-down flex flex-col" style="--duration: {column.duration}">
