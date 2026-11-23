@@ -8,7 +8,7 @@
         <h1 class="lg:text-20xl md:text-10xl text-5xl text-shadow-2xs font-black anton uppercase lg:gap-10 gap-3 flex text-white">
             <span class="show-down-01">THE</span> 
             <span  class="show-down-02">BEST</span> 
-            <span  class="show-down-03">COFFE</span>
+            <span  class="show-down-03">COFFEE</span>
         </h1>
         <div class="flex lg:text-2xl w-full items-center text-white font-black justify-between p-2">
             <a class="hover:border-white duration-200 border-1 active:scale-95 border-white/1 hover:border-dashed" href="">PRICES</a>
