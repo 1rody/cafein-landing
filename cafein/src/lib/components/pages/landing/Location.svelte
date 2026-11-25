@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
         import coffeMock01 from "#lib/assets/backgrounds/Bg-Canvas.png";
         import coffeBrand from "#lib/assets/favicon.svg";
 

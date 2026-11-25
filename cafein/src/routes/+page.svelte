@@ -8,6 +8,7 @@
     import Menu from "#lib/components/pages/landing/Menu.svelte";
 
     import ClientCounter from "#lib/components/pages/landing/misc/ClientCounter.svelte";
+    import Whatsapp from "#lib/components/pages/landing/misc/Whatsapp.svelte";
 
 </script>
 
@@ -16,6 +17,7 @@
 <Navigation/>
 <main>
     <Hero/>
+    <Whatsapp/>
     <ClientCounter/>
     <About/>
     <Location/>
